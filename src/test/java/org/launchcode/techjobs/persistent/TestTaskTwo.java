@@ -546,6 +546,7 @@ public class TestTaskTwo extends AbstractTest {
     /*
     * Tests SQL query for task 2
     * */
+
     @Test
     public void testSqlQuery() throws IOException {
         String queryFileContents = getFileContents("queries.sql");
